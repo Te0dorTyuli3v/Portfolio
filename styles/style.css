@@ -1,0 +1,76 @@
+/* Стил за навигационното меню */
+nav ul {
+    list-style-type: none; /* Премахва точките пред списъка */
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none; /* Премахва подчертаването на линковете */
+    color: white; /* Цвят на текста */
+    background-color: rgb(84, 84, 204); /* Фон на бутоните */
+    padding: 10px 20px; /* Пространство вътре в бутоните */
+    border-radius: 5px; /* Закръглени ъгли */
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: rgb(144, 144, 238); /* По-тъмен цвят при hover */
+}
+
+body {
+    background-color: #d2d2c3; /* Бежов цвят */
+    font-family: Arial, sans-serif; /* Избиране на шрифт, ако искаш */
+}
+
+.contact-section {
+    max-width: 600px; /* Ширина на секцията */
+    margin: 0 auto; /* Центриране на съдържанието */
+    padding: 20px;
+    background-color: #e6e6fa; /* Лавандулен цвят за полето */
+    border: 2px solid #333; /* Черна рамка около секцията */
+    border-radius: 10px; /* Закръглени ъгли */
+    text-align: center; /* Центриране на текста */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Лека сянка за по-добър ефект */
+}
+
+.contact-section h2 {
+    margin-top: 0; /* Премахва допълнителното пространство над заглавието */
+}
+
+.contact-info {
+    margin-bottom: 10px; /* Добавя разстояние между полетата с информация */
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Центрира проектите */
+    margin: 20px 0;
+}
+
+.project-item {
+    border: 2px solid #ADD8E6; /* Светло синя рамка */
+    border-radius: 10px; /* Заоблени ъгли */
+    margin: 10px;
+    padding: 20px;
+    text-align: center; /* Центриране на текста */
+    width: 300px; /* Широчина на всеки проект */
+    background-color: #f0f8ff; /* Светло син фон */
+}
+
+.project-item img {
+    max-width: 100%; /* Изображението заема 100% от ширината на контейнера */
+    height: auto; /* Автоматично задаване на височината */
+    border-radius: 5px; /* Заобляне на ъглите на изображението */
+}
+
+.project-item h3 {
+    margin: 10px 0; /* Отстъп между заглавието и изображението */
+}
